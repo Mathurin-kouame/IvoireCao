@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-position: center;
+    font-family: 'roboto' sans-serif;
+}
+
+.header-bar{
+    background-color: rgb(19, 79, 25);
+    text-align: center;
+}
+
+.contain nav ul{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+}
