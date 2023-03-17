@@ -84,6 +84,7 @@ header{
 
 .info-cacao img{
   float: right;
+  margin-top: -41px;
 }
 
 .info-cacao p{
