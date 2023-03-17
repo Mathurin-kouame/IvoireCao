@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
   background: #FDF8F8;
 }
+body{
+   width: 1440px;
+   margin: 0 auto;
+}
+
 
 header{
   position: fixed;
@@ -17,10 +22,10 @@ header{
   z-index: 1;
   display: flex;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   transition: 0.s;
-  background-color: #fff;
+  box-shadow: 15px;
  
 }
 
@@ -61,10 +66,23 @@ header{
   margin-top: -12px;
 }
 .imgSlider img{
-  /* width: 1512px; */
   width: 100%;
-  height: 446px;
-  background-size: cover;
-  background-position: center;
+  height: 600px;
+ background-size: cover;
+ position: center;
+ 
+}
+/* info sur le cacao */
 
+.info-cacao{
+  width: 1441px;
+  height: 323px;
+  margin-top: 50px;
+  border: 1px solid #196956;
+}
+
+.img-info_1 img{
+  width: 260px;
+  height: 228px;
+  border-radius: 100%;
 }
