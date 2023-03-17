@@ -79,11 +79,24 @@ header{
   height: 323px;
   margin-top: 50px;
   border: 1px solid #196956;
+  box-shadow: 15px 15px;
 }
+
+.info-cacao img{
+  float: right;
+}
+
+.info-cacao p{
+  float: left;
+}
+  
+
 
 .img-info_1 img{
   width: 260px;
   height: 228px;
   border-radius: 100%;
+  
 }
+
 
