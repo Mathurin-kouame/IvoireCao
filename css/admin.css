@@ -70,6 +70,15 @@ body{
     top: 0;
     padding: 80px 0 20px 0;
     color: #fff;
-    background-color: rgb(65, 58, 58);
+    background-color: #196956;
     
 }
+.sidebar-menu img{
+    max-width: 30px;
+    color: #fff;
+}
+
+.sidebar-menu span{
+    color: #fff;
+}
+
