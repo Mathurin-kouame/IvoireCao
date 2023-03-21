@@ -73,12 +73,23 @@ body{
     background-color: #196956;
     
 }
+
+.sidebar-menu{
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.s ease-in-out;
+}
 .sidebar-menu img{
-    max-width: 30px;
+    max-width: 27px;
     color: #fff;
 }
 
-.sidebar-menu span{
+.sidebar-menu > span{
     color: #fff;
+    font-size: 18px;
+    padding-right: 20px;
 }
 
