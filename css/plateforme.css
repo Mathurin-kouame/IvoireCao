@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: center;
+    font-family: "roboto" sans-serif;
+    scroll-behavior: smooth;
+    background: #FDF8F8;
+  }
+  body{
+     width: 1440px;
+     margin: 0 auto;
+  }
+  
+  
+  header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.s;
+    box-shadow: 15px;
+   
+  }
+  
+  .logo{
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  .logo .logSp1{
+    color: #fb911e;
+  }
+  
+  .logo .logSp2{
+    color: #61a90e;
+  }
+  
+  .navbar ul{
+    display: flex;
+    position: relative;
+    
+  }
+  
+  .navbar ul li{
+    list-style: none;
+  }
+  
+  .navbar  a{
+    text-decoration: none;
+    /*color: #fff;*/
+    margin-left: 30px;
+    font-weight: 700px;
+  }
+  
+  .accesPlafm{
+    padding:  10px 20px;
+    background: #196956;
+    margin-top: -12px;
+  }
+  .imgSlider img{
+    width: 100%;
+    height: 500px;
+   background-size: cover;
+   position: center;
+   
+  }
