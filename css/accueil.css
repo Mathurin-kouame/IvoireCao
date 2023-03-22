@@ -11,6 +11,18 @@ body{
    width: 1440px;
    margin: 0 auto;
 }
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #045c54;
+  border: 1px solid #cedcb1;
+}
+.logo img{
+  width: 50px;
+  margin-left: 3px;
+
+}
 
 
 header{
