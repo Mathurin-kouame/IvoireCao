@@ -1,6 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 60px 1fr;
 }
 
 /* .grid-container{
@@ -12,12 +16,14 @@ body{
  height: 100vh;
 } */
 .header{
- width: 30px;
- height: 6vh;
+ width: 100%;
+ height: 9vh;
  background-color: #2C806B;
 }
 
 .sidebar{
+    height: 90%;
+    width: 20%;
     background-color: #0F2030;
    
 }
