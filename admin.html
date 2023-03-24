@@ -10,73 +10,77 @@
     <title>admin</title>
 </head>
 <body>
-    <div id="bloc">
-         <div class="sidebar">
-          <div class="logo">
-            <div><span><a href="index.html">IvoireCao</a></span></div>  
-             <div class="log-img"><img src="./img/logo.jpeg" alt=""></div>
-          </div>
-          <ul class="nav-links">
-            <li>
-                <a href="#">
-                    <img src="./img/dashboard-svgrepo-com.svg" width="200px" alt="">
-                    <span class="link-name">Tableau de bord</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./img/user-add_2.svg" width="200px" alt="">
-                    <span class="link-name">Admin</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./img/user-add_2.svg" width="200px" alt="">
-                    <span class="link-name">Ajouter Admin</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./img/tasks-app-svgrepo-com.png" width="200px" alt="">
-                    <span class="link-name">Tâches</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./img/setting-svgrepo-com.png" width="200px" alt="">
-                    <span class="link-name">Paramètres </span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./img/document-file-paper-13-svgrepo-com.svg" width="200px" alt="">  
-                    <span class="link-name">Bilan</span>
-                </a>
-            </li>
-          </ul>
-         </div>
+    <div class="grid-container">
+        <!-- partie header -->
         <header class="header">
-            <div>
-                <img src="./img/menu-regular-24.png" alt="">
-            </div>
-            <div>
-                
-             <a href="#">SuperAdmin</a>
-            </div>
-            <div>
-                <div class="icon-bottom">
-                    <img src="./img/icon-bottom.png" alt="">
-                </div>   
-                <div class="adm-deconnect">
-                    <a href="#">se déconnecter</a>
-                </div>
-            </div>
+            <div>  
+                <div>
+                  <img src="./img/menu-regular-24.png" alt="">
+               </div>
+               <div class="connexion">
+                  <div>
+                   <img src="/img/user-circle-solid-24.png" alt="">
+                  </div>
+                   <div > 
+                      <a href="#">SuperAdmin</a>
+                   </div>
+                   <div class="icon-bottom">
+                      <span><i class='bx bxs-down-arrow'></i></span>
+                   </div>   
+                    <div class="adm-deconnect">
+                      <a href="#">se déconnecter</a>
+                   </div>
+                </div> 
+            </div> 
          </header>
+         <!-- partie sidebar-->
+      <aside id ="#sidebar">
+         <div id="bloc">
+          <div>
+           <div class="logo">
+           <div><span><a href="index.html">IvoireCao</a></span></div>  
+            <div class="log-img"><img src="./img/logo.jpeg" alt=""></div>
+         </div>
+         <ul class="nav-links">
+           <li> 
+               <a href="#"><img src="./img/dashboard-svgrepo-com.svg" width="200px" alt="">
+                   <span class="link-name">Tableau de bord</span>
+               </a>
+           </li>
+           <li>
+               <a href="#"><img src="./img/user-add_2.svg" width="200px" alt="">
+               <span class="link-name">Admin</span></a>
+           </li>
+           <li>
+               <a href="#"> <img src="./img/user-add_2.svg" width="200px" alt="">
+                   <span class="link-name">Ajouter Admin</span>
+               </a>
+           </li>
+           <li>
+               <a href="#">
+                   <img src="./img/tasks-app-svgrepo-com.png" width="200px" alt="">
+                   <span class="link-name">Tâches</span>
+               </a>
+           </li>
+           <li>
+               <a href="#">
+                   <img src="./img/setting-svgrepo-com.png" width="200px" alt="">
+                   <span class="link-name">Paramètres </span>
+               </a>
+           </li>
+           <li>
+               <a href="#">
+                   <img src="./img/document-file-paper-13-svgrepo-com.svg" width="200px" alt="">  
+                   <span class="link-name">Bilan</span>
+               </a>
+           </li>
+         </ul>
+         </div>
+      </aside>
+          <!-- partie main -->
+      <main class="main-contatainer"></main>
     </div>
-    
-
-
-    <main class="main"></main>
-    
+ <!-- partie js -->   
+ <script src="./js/admin.js"></script>
 </body>
 </html>
