@@ -7,13 +7,53 @@ body{
     display: flex;
 }
 .menu{
-    width: 20%;
+    width: 16%;
     height: 100vh;
     background-color:#0F2030;
 
 }
+.cont-logo{
+    background-color:#196956;
+    width: 300px;
+    height: 50px;
+}
+.text-logo a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: -8px;
+    font-size: 20px;
+
+}
+.logo-I{
+    color: #FD9A06;
+}
+
+.logo-C{
+    color: #1DC337;
+}
+
+.logoImg{
+    width: 26px;
+    height: 20px;
+    border: 1px solid #FD9A06;
+    border-radius: 100%;
+    padding: 6px;
+    margin-top: -20px;
+    margin-left: 126px;
+    
+}
+
+
+.logoImg img{
+    width: 26px;
+    height: 20px;
+    margin-top: -2px
+   
+}
+
 .content{
-    width: 80%;
+    width: 100%;
     background-color: #FDF8F8;
     
 }
@@ -21,4 +61,7 @@ header{
     width: 100%;
     height: 50px;
     background-color: #2C806B;
+}
+.elms-admin{
+    float: right;
 }
