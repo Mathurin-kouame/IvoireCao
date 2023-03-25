@@ -17,12 +17,23 @@ body{
     width: 300px;
     height: 50px;
 }
+
+.cont-logo .text-logo{
+    padding: 10px;
+}
+
+
+.cont-logo .text-logo .logoImg{
+   display: inline-block;
+   align-items: center;
+}
+
 .text-logo a{
     color: #fff;
     text-decoration: none;
-    margin-left: 30px;
     margin-top: -8px;
     font-size: 20px;
+    margin-left: 38px;
 
 }
 .logo-I{
@@ -38,22 +49,22 @@ body{
     height: 20px;
     border: 1px solid #FD9A06;
     border-radius: 100%;
-    padding: 6px;
-    margin-top: -20px;
-    margin-left: 126px;
-    
+    padding: 3px;
+    margin-top: -32px;
+    margin-left: 8px;
 }
-
-
+    
 .logoImg img{
     width: 26px;
     height: 20px;
-    margin-top: -2px
-   
 }
 
-.content{
+/*partie header navbar*/
+
+.cont-header{
     width: 100%;
+    height: 100vh;
+    position: relative;
     background-color: #FDF8F8;
     
 }
@@ -62,6 +73,71 @@ header{
     height: 50px;
     background-color: #2C806B;
 }
+
+ .header-menu .icon-menu img {
+    min-width: 30px;
+    padding: 10px;
+
+}
+
+/* .cont-header.navbar{
+    padding: 0 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
 .elms-admin{
     float: right;
+    min-width: 30px;
+    padding: 10px;
+    margin-top: -61px;
+}
+.elms-admin img{
+    padding: 10px;
+    margin-left: -50px;
+}
+.elms-admin li{
+    list-style: none;
+}
+
+.elms-admin a{
+    text-decoration: none;
+}
+
+.elms-admin i{
+    margin-top: 0px;
+}
+
+.elms-admin .name-admin{
+    margin-top: 15px;
+    position: absolute;
+    
+}
+
+.all-link ul{
+    padding: 7px;
+}
+
+.all-link ul li a {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+   min-width: 60px;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   transition: all 0.4s ease;
+}
+.all-link ul li :hover{
+    background: #196956;
+}
+
+.all-link ul li {
+    list-style: none;
+    padding-top: 30px;
+}
+.all-link  img{
+    margin-right: 10px;
 }
