@@ -1,6 +1,7 @@
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width: 1440px;
 }
 
 .container{
@@ -221,5 +222,44 @@ header{
     background: url('https://api.iconify.design/mdi-light/email.svg');
     background-size: 100%;
   }
+
+  /* main */
+  .card_s{
+    width: 390px;
+    height: 147px;
+    margin: 30px;
+    background: #fd9a068a;
+    border: 1px solid #F3970C;
+    color: #fff;
+  }
+
+  .number {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .card-content{
+    margin: 0 auto;
+   
+  }
+  .card-name{
+    margin-left: 70px;
+    margin-top: 30px;
+  }
   
-  
+  .retails{
+    width: 390px;
+    height: 33px;
+    background: #FD9A06;
+    border: 1px solid #FD9A06;
+    margin-top: 37px;
+  }
+
+  .retail{
+    margin-top: 8px;
+    text-align: center;
+  }
+  .cards{
+    display: flex;
+    padding: 2px;
+  }
