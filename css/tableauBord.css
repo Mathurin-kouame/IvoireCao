@@ -96,7 +96,7 @@ header{
 }
 .elms-admin img{
     padding: 10px;
-    margin-left: -50px;
+    margin-left: -129px;
 }
 .elms-admin li{
     list-style: none;
@@ -106,14 +106,26 @@ header{
     text-decoration: none;
 }
 
-.elms-admin i{
-    margin-top: 0px;
-}
-
 .elms-admin .name-admin{
     margin-top: 15px;
+    position: absolute;  
+}
+/* partie info-profil */
+
+.sub-menu-wrap{
     position: absolute;
-    
+    top: 100%;
+    right: 10%;
+    width: 300px;
+}
+.sub-menu{
+    background:rgb(19, 112, 218);
+    padding: 20px;
+    margin: 10px;
+}
+.info-prof .btnUp{
+    display: flex;
+    align-items: center;
 }
 
 .all-link ul{
@@ -141,3 +153,73 @@ header{
 .all-link  img{
     margin-right: 10px;
 }
+/* footer2 */
+.footerGig{
+    margin-top: 20px;
+  }
+
+.foot-icons-1{
+    position: relative;
+    width: 1440px;
+    height: 200px;
+    background: #196956;
+    margin: 0 auto;
+    align-items: center;
+    transition: 0.s;
+    color: #fff;
+  
+  }
+  
+  .foot-icons-1 ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+  
+  }
+  
+  .foot-icons-1 li a{
+    text-decoration: none;
+    display: inline-flex;
+  }
+  
+  .foot-icons-2{
+    width: 1440px;
+    height: 53px;
+    background: #171717;
+    align-items: center;
+  }
+  
+  .foot-icons-2 p{
+    color: #fff;
+    margin-right: 2px;
+    margin:0 auto;
+    
+    
+  }
+  
+  .foot-icons-2 ul{
+    list-style: none;
+   margin-right: 20px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    padding-inline: 656px;
+    justify-content: space-around;
+  
+  }
+  
+  .foot-icons-2 .footer-icon{
+    color: #fff;
+    /* display: flex; */
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  
+  
+  .iconfi{
+    background: url('https://api.iconify.design/mdi-light/email.svg');
+    background-size: 100%;
+  }
+  
+  
