@@ -263,3 +263,85 @@ header{
     display: flex;
     padding: 2px;
   }
+  /* categorie card2 */
+
+  .card_s2{
+    width: 390px;
+    height: 147px;
+    margin: 30px;
+    background: #0C661B;
+    border: 1px solid #288347;
+    color: #fff;
+  }
+
+  .number2 {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .card-content{
+    margin: 0 auto;
+   
+  }
+  .card-name2{
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  
+  .retails2{
+    width: 390px;
+    height: 33px;
+    background: #1DC337;
+    border: 1px solid #288347;
+    margin-top: 37px;
+  }
+
+  .retail2{
+    margin-top: 8px;
+    text-align: center;
+  }
+  .cards2{
+    display: flex;
+    padding: 2px;
+  }
+/* categorie cart"3 */
+
+  .card_s3{
+    width: 390px;
+    height: 147px;
+    margin: 30px;
+    background: #c33c1d6b;
+    border: 1px solid #C33B1D;
+    color: #fff;
+  }
+
+  .number3 {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .card-content{
+    margin: 0 auto;
+   
+  }
+  .card-name3{
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  
+  .retails3{
+    width: 390px;
+    height: 33px;
+    background: #C33B1D;
+    border: 1px solid #F3280C;
+    margin-top: 37px;
+  }
+
+  .retail3{
+    margin-top: 8px;
+    text-align: center;
+  }
+  .cards3{
+    display: flex;
+    padding: 2px;
+  }
