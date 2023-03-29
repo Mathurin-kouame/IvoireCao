@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/tableauBord.css">
-    <title>Tableau de bord</title>
+    <link rel="stylesheet" href="/css/superAdmin.css">
+    <title>superAdmin</title>
 </head>
 <body>
    <div class="container">
@@ -35,13 +37,15 @@
                     <span class="icon-menu"><img src="/img/icons8-menu-rounded-30 (1).png" alt=""></span>
                 </div>
                <div class="elms-admin">
-                  <img src="/img/icons8-user-67.png" width="30px"  alt="">
-                  <span class="name-admin">SuperAdmin<i class='bx bxs-down-arrow'></i></span>
+                
+                <a href="#"><span class="user-icon"><i class='bx bx-user'></i> </span><span class="login-super">SuperAdmin</span></a> 
+                <div class="down-icon"><span><i class='bx bxs-down-arrow'></i></span></div>  
                </div>
                <div class="sub-menu-wrap">
                 <div class="sub-menu">
                  <div class="info-prof">
                     <img src="/img/icons8-user-67.png" width="30px" alt="">
+                   
                     <h3>mathus rolther</h3>
                     <li><a href="#"><span class="btnUp"><i class='bx bx-log-out'></i>Se déconnecter</span></a></li>
                  </div>
@@ -57,7 +61,7 @@
                         <div class="number"><span>0</span></div>
                         <div class="card-name">Tâches en cours</div>
                         <div class="retails">
-                            <div class="retail">Voir les détailles<i class='bx bxs-right-arrow-circle'></i></div>
+                            <div class="retail"><a href="#"> Voir les détailles</a><i class='bx bxs-right-arrow-circle'></i></div>
                         </div>  
                      </div>   
                     </div>
@@ -66,7 +70,7 @@
                            <div class="number2"><span>0</span></div>
                            <div class="card-name2">Tâches non terminées </div>
                            <div class="retails2">
-                               <div class="retail2">Voir les détailles<i class='bx bxs-right-arrow-circle'></i></div>
+                               <div class="retail2"><a href="#"> Voir les détailles</a><i class='bx bxs-right-arrow-circle'></i></div>
                            </div>  
                         </div>   
                        </div>
@@ -75,7 +79,7 @@
                            <div class="number3"><span>0</span></div>
                            <div class="card-name3">Tâches terminées</div>
                            <div class="retails3">
-                               <div class="retail3">Voir les détailles<i class='bx bxs-right-arrow-circle'></i></div>
+                               <div class="retail3"><a href="#"> Voir les détailles</a> <i class='bx bxs-right-arrow-circle'></i></div>
                            </div>  
                         </div>   
                        </div>
@@ -84,7 +88,7 @@
                            <div class="number"><span>0</span></div>
                            <div class="card-name">Tâches en cours</div>
                            <div class="retails">
-                               <div class="retail">Voir les détailles<i class='bx bxs-right-arrow-circle'></i></div>
+                               <div class="retail"><a href="#"> Voir les détailles</a><i class='bx bxs-right-arrow-circle'></i></div>
                            </div>  
                         </div>   
                        </div>
@@ -93,7 +97,7 @@
                            <div class="number"><span>0</span></div>
                            <div class="card-name">Tâches en cours</div>
                            <div class="retails">
-                               <div class="retail">Voir les détailles<i class='bx bxs-right-arrow-circle'></i></div>
+                               <div class="retail"><a href="#"> Voir les détailles</a><i class='bx bxs-right-arrow-circle'></i></div>
                            </div>  
                         </div>   
                        </div>
@@ -102,15 +106,17 @@
                            <div class="number"><span>0</span></div>
                            <div class="card-name">Tâches en cours</div>
                            <div class="retails">
-                               <div class="retail">Voir les détailles<i class='bx bxs-right-arrow-circle'></i></div>
+                               <div class="retail"><a href="#"> Voir les détailles</a><i class='bx bxs-right-arrow-circle'></i></div>
                            </div>  
                         </div>   
                        </div>  
                 </div>
-                <div>
-                    <div class="table-section">
-                        <table>
-                            <h3>Liste des administrateurs</h3>
+                <h3>Liste des administrateurs</h3>
+                <div class="table-section">
+                    <div class="tables">
+                        <div class="heading"> 
+                        </div>
+                        <table class="lists-names">
                             <thead>
                                 <tr>
                                     <th>n°</th>
@@ -122,37 +128,90 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <td>1</td>
+                                <tr>
+                                    <td>1</td>
                                 <td>Vaniet</td>
                                 <td>Mathurin</td>
                                 <td>0787110625</td>
                                 <td>mathurin.vaniet@gmail.com</td>
-                                <td>pepinier</td>
+                                <td>pepinier</td> 
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                <td>Vaniet</td>
+                                <td>Mathurin</td>
+                                <td>0787110625</td>
+                                <td>mathurin.vaniet@gmail.com</td>
+                                <td>pepinier</td> 
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                <td>Vaniet</td>
+                                <td>Mathurin</td>
+                                <td>0787110625</td>
+                                <td>mathurin.vaniet@gmail.com</td>
+                                <td>pepinier</td> 
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                <td>Vaniet</td>
+                                <td>Mathurin</td>
+                                <td>0787110625</td>
+                                <td>mathurin.vaniet@gmail.com</td>
+                                <td>pepinier</td> 
+                                </tr>
+                            
                             </tbody>
-                        </table>
+                        </table> 
                     </div>
+                    <div class="diff-tasks">
+                        <div class="heading">
+                            <h3>Les differentes tâches</h3>
+                        </div>
+                        <div class="diff-activity">
+                            <div class="activity_1">
+                                <div><img src="/img/imgfot1.jpg" width="300px" alt=""></div>
+                                <h3>Pépinière</h3>      
+                            </div>  
+                            <div class="activity_1">
+                                <div><img src="/img/imgfot2.jpg" width="300px" alt=""></div>
+                                <h3>Pépinière</h3>      
+                            </div>  
+                            <div class="activity_1">
+                                <div><img src="/img/imgfo3.webp" width="300px" alt=""></div>
+                                <h3>Pépinière</h3>      
+                            </div>  
+                            <div class="activity_1">
+                                <div><img src="/img/imgfot4.jpeg" width="300px" alt=""></div>
+                                <h3>Pépinière</h3>      
+                            </div>  
+                            <div class="activity_1">
+                                <div><img src="/img/Ramassage-des-feves.jpeg" width="300px" alt=""></div>
+                                <h3>Pépinière</h3>      
+                            </div>  
+                        </div>
+                    </div>   
                 </div>
             </main>
         </div>
     </div>
- partie footer -->
-  <!-- <footer class="footerGig">  -->
-    <div class="foot-icons-1">  
-        <ul>
-            <li><a href="mailto:ivoirecao@gmail.com"><iconify-icon icon="mdi-light:email"></iconify-icon>ivoirecao@gmail.com</a></li>
-            <li><a href="#"><iconify-icon icon="lucide:phone-call"></iconify-icon>+2250555680177 / 0787110625</a></li>
-            <li><a href="#"><iconify-icon icon="majesticons:map-marker-area-line"></iconify-icon>Abibjan,Zone Forestière</a></li>
-        </ul>
-    </div>
-    <div class="foot-icons-2">
-        <p>©2023 IvoireCao,Gestion du Personnel cacaoculture en Côte d'Ivoire</p>
-        <ul>
-            <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:facebook"></iconify-icon></span></a></li>
-            <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:twitter"></iconify-icon></span></a></li>
-            <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:linkedin"></iconify-icon></span></a></li>
-        </ul>
-    </div>
-   </footer>
+    <footer class="footerGig">
+        <div class="foot-icons-1">  
+            <ul>
+                <div class="email-icon"><li><a href="mailto:ivoirecao@gmail.com"><iconify-icon icon="mdi-light:email"></iconify-icon>ivoirecao@gmail.com</a></li></div>
+                <div class="phone_call"><li><a href="#"><iconify-icon icon="lucide:phone-call"></iconify-icon>+2250555680177 / 0787110625</a></li>
+                <div class="icon_map"> <li><a href="#"><iconify-icon icon="majesticons:map-marker-area-line"></iconify-icon>Abibjan,Zone Forestière</a></li></div> 
+            </ul>
+        </div>
+        <div class="foot-icons-2">
+            <p>©2023 IvoireCao,Gestion du Personnel cacaoculture en Côte d'Ivoire</p>
+            <ul>
+                <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:facebook"></iconify-icon></span></a></li>
+                <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:twitter"></iconify-icon></span></a></li>
+                <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:linkedin"></iconify-icon></span></a></li>
+            </ul>
+        </div>
+       </footer>
    <script src="/js/tableauBord.js"></script>
 </body>
 </html>
