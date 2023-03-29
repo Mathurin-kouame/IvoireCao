@@ -8,8 +8,8 @@ body{
     display: flex;
 }
 .menu{
-    width: 16%;
-    height: 100vh;
+    width: 3%;
+    height: 200vh;
     background-color:#0F2030;
 
 }
@@ -64,7 +64,7 @@ body{
 
 .cont-header{
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     position: relative;
     background-color: #FDF8F8;
     
@@ -227,7 +227,7 @@ header{
   .card_s{
     width: 390px;
     height: 147px;
-    margin: 30px;
+    margin: 10px;
     background: #fd9a068a;
     border: 1px solid #F3970C;
     color: #fff;
@@ -260,15 +260,17 @@ header{
     text-align: center;
   }
   .cards{
+    align-items: center;
     display: flex;
-    padding: 2px;
+    padding: 10px 10px;
+    flex-wrap: wrap;
   }
   /* categorie card2 */
 
   .card_s2{
     width: 390px;
     height: 147px;
-    margin: 30px;
+    margin: 10px;
     background: #0C661B;
     border: 1px solid #288347;
     color: #fff;
@@ -309,7 +311,7 @@ header{
   .card_s3{
     width: 390px;
     height: 147px;
-    margin: 30px;
+    margin: 10px;
     background: #c33c1d6b;
     border: 1px solid #C33B1D;
     color: #fff;
