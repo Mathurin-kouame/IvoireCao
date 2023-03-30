@@ -16,11 +16,27 @@ body{
   align-items: center;
   justify-content: center;
   background-color: #045c54;
-  border: 1px solid #cedcb1;
+ 
 }
+.logo a{
+  text-decoration: none;
+  margin: 5px;
+  color: #fff;
+}
+
+.clor_span-1{
+  color: #fb911e;
+}
+
+.clor_span-2{
+  color: #61a90e;
+}
+
 .logo img{
   width: 50px;
   margin-left: 3px;
+  border: 1px solid #fb911e;
+  border-radius: 100%;
 
 }
 
@@ -48,14 +64,6 @@ header{
   text-decoration: none;
 }
 
-.logo .logSp1{
-  color: #fb911e;
-}
-
-.logo .logSp2{
-  color: #61a90e;
-}
-
 .navbar ul{
   display: flex;
   position: relative;
@@ -68,7 +76,7 @@ header{
 
 .navbar  a{
   text-decoration: none;
-  /*color: #fff;*/
+  color: #fff;
   margin-left: 30px;
   font-weight: 700px;
 }
