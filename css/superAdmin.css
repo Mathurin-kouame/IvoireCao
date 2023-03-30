@@ -9,7 +9,7 @@ body{
 }
 .menu{
     width: 10%;
-    height: 200vh;
+    height: 130vh;
     background-color:#0F2030;
 
 }
@@ -65,7 +65,7 @@ body{
 .cont-header{
    align-items: center;
     width: 100%;
-    height: 200vh;
+    height: 130vh;
     position: relative;
     background-color: #FDF8F8;
     
@@ -402,35 +402,42 @@ header{
   text-decoration: none;
   
 }
+/* deuxieme parti de footer */
 
-.foot-icons-2{
-  width: 1513px;
+.foot-icons-2 {
+  width: 100%;
+  height: 100px;
+  margin-top: -20px;
+  color: #fff;
   background: #0c0c0c;
-
 }
 
-.foot-icons-2 p{
-  color: #fff;
-  margin-right: 2px;
-  margin:0 auto;
-  
+.foot-icons-2 .text-footer{
+  text-align: center;
+  padding: 20px;
   
 }
 
-.foot-icons-2 ul{
-  list-style: none;
- margin-right: 20px;
-  padding: 2px;
+.foot-icons-2 .footer-ul ul{
   display: flex;
-  align-items: center;
-  padding-inline: 656px;
-  justify-content: space-around;
-
+  text-align: center;
+  float: right;
+  
+}
+.foot-icons-2 .footer-ul .link-icon{
+  margin: 3px;
+  margin-top: -70px;
 }
 
-.foot-icons-2 .footer-icon{
+.foot-icons-2 .footer-ul .link-icon a{
   color: #fff;
-  /* display: flex; */
-  margin: 0 auto;
-  align-items: center;
+  font-size: 32px;
+  margin-left: 20px;
 }
+
+.foot-icons-2 .footer-ul ul li{
+  list-style: none;
+
+}
+
+
