@@ -288,6 +288,7 @@ header{
     padding: 2px;
   }
 
+  
   /*    */
   .table-section{
     width: 100%;
@@ -433,5 +434,67 @@ header{
   list-style: none;
 
 }
+ /*.................................................. */
+
+ 
+
+   /* Style pour la modal */
+   .modal {
+     display: none; /* cachée par défaut */
+     position: fixed; /* position fixe */
+     z-index: 1; /* place la modal au-dessus de tout autre élément */
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto; /* permet le défilement si le contenu de la modal est plus grand que l'écran */
+     background-color: rgba(0,0,0,0.4); /* fond sombre semi-transparent pour mettre en évidence la modal */
+   }
+   
+   /* Style pour le contenu de la modal */
+   .modal-content {
+     background-color: #fefefe;
+     margin: 15% auto; /* centre la modal verticalement et horizontalement */
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%; /* largeur par défaut de la modal */
+   }
 
 
+   /* Style pour le bouton de fermeture */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  /* Style pour le bouton de fermeture */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  } 
+  /* Style pour le bouton de fermeture */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }  
+
+   /* Style pour le bouton d'enregistrement */
+   button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }   
+
+  /* Style pour le bouton d'enregistrement au survol */
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }  
+  

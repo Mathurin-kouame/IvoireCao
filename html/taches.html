@@ -8,8 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/superAdmin.css">
-    <title>admin</title>
+    <link rel="stylesheet" href="/css/gestionAdmin.css">
+    <title>taches</title>
 </head>
 <body>
    <div class="container">
@@ -22,11 +22,11 @@
         <!-- partie asidebar -->   
         <div class="all-link">
             <ul>
-                <li><a href="/html/tableau-de-bord.html"><img src="/img/dashboard-svgrepo-com.svg" width="30px" alt=""><span class="link-name" >Tableau de bord</span></a></li>
-                <li><a href="/html/ajouts.html"><img src="/img/people (1).png" width="30px" alt=""><span class="link-name" >Gestion travailleurs</span></a></li>
-                <li><a href="/html/taches.html"><img src="/img/tasks-app-svgrepo-com.png" width="30px" alt=""><span  class="link-name" >Tâches</span></a></li>
-                <li><a href="/html/parametre.html"><img src="/img/setting-svgrepo-com.png" width="30px" alt=""><span class="link-name" >Paramètre</span></a></li>
-                <li><a href="/html/bilan.html"><img src="/img/document-file-paper-13-svgrepo-com.svg" width="30px" alt=""> <span class="link-name" >Bilan</span></a></li>
+                <li><a href="../html/tableau-de-bord.html"><img src="/img/dashboard-svgrepo-com.svg" width="30px" alt=""><span class="link-name" >Tableau de bord</span></a></li>
+                <li><a href="../html/GestionAdmin.html"><img src="/img/people (1).png" width="30px" alt=""><span class="link-name" >Gestion admin</span></a></li>
+                <li><a href="../html/taches.html"><img src="/img/tasks-app-svgrepo-com.png" width="30px" alt=""><span  class="link-name" >Tâches</span></a></li>
+                <li><a href="../html/parametre.html"><img src="/img/setting-svgrepo-com.png" width="30px" alt=""><span class="link-name" >Paramètre</span></a></li>
+                <li><a href="../html/bilan.html"><img src="/img/document-file-paper-13-svgrepo-com.svg" width="30px" alt=""> <span class="link-name" >Bilan</span></a></li>
             </ul>
         </div> 
       </div> 
@@ -38,7 +38,7 @@
                 </div>
                <div class="elms-admin">
                 
-                <a href="#"><span class="user-icon"><i class='bx bx-user'></i> </span><span class="login-super">Admin</span></a> 
+                <a href="#"><span class="user-icon"><i class='bx bx-user'></i> </span><span class="login-super">SuperAdmin</span></a> 
                 <div class="down-icon"><span><i class='bx bxs-down-arrow'></i></span></div>  
                </div>
                <div class="sub-menu-wrap">
@@ -54,7 +54,7 @@
                </div> 
             </header>
             <main>
-                <h3>Tableau de bord</h3>
+                <h3>Gestion des tâches</h3>
                 <div class="cards">
                     <div class="card_s">
                      <div class="card-content">
@@ -111,85 +111,7 @@
                         </div>   
                        </div>  
                 </div>
-                <h3>liste des travailleurs</h3>
-                <div class="table-section">
-                    <div class="tables">
-                        <div class="heading"> 
-                        </div>
-                        <table class="lists-names">
-                            <thead>
-                                <tr>
-                                    <th>n°</th>
-                                    <th>Nom</th>
-                                    <th>Prenoms</th>
-                                    <th>N°Téléphone</th>
-                                    <th>Adresse mail</th>
-                                    <th>Rôles</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                <td>Vaniet</td>
-                                <td>Mathurin</td>
-                                <td>0787110625</td>
-                                <td>mathurin.vaniet@gmail.com</td>
-                                <td>pepinier</td> 
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                <td>Vaniet</td>
-                                <td>Mathurin</td>
-                                <td>0787110625</td>
-                                <td>mathurin.vaniet@gmail.com</td>
-                                <td>pepinier</td> 
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                <td>Vaniet</td>
-                                <td>Mathurin</td>
-                                <td>0787110625</td>
-                                <td>mathurin.vaniet@gmail.com</td>
-                                <td>pepinier</td> 
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                <td>Vaniet</td>
-                                <td>Mathurin</td>
-                                <td>0787110625</td>
-                                <td>mathurin.vaniet@gmail.com</td>
-                                <td>pepinier</td> 
-                                </tr>
-                            
-                            </tbody>
-                        </table> 
-                    </div>
-                    <div class="diff-tasks">
-                        <div class="heading">
-                            <h3>Les differentes tâches</h3>
-                        </div>
-                        <div class="diff-activity">
-                            <div class="activity_1">
-                                <div><img src="/img/imgfot1.jpg" width="300px" alt=""></div>
-                                <h3>Pépinière</h3>      
-                            </div>  
-                            <div class="activity_1">
-                                <div><img src="/img/imgfot2.jpg" width="300px" alt=""></div>
-                                <h3>Pépinière</h3>      
-                            </div>  
-                            <div class="activity_1">
-                                <div><img src="/img/imgfo3.webp" width="300px" alt=""></div>
-                                <h3>Pépinière</h3>      
-                            </div>  
-                            <div class="activity_1">
-                                <div><img src="/img/imgfot4.jpeg" width="300px" alt=""></div>
-                                <h3>Pépinière</h3>      
-                            </div>  
-                            <div class="activity_1">
-                                <div><img src="/img/Ramassage-des-feves.jpeg" width="300px" alt=""></div>
-                                <h3>Pépinière</h3>      
-                            </div>  
-                        </div>
+               
                     </div>   
                 </div>
             </main>
