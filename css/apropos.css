@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: center;
+    font-family: "roboto" sans-serif;
+    scroll-behavior: smooth;
+    /* background: #FDF8F8; */
+  }
+  body{
+     width: 1440px;
+     margin: 0 auto;
+     
+  }
+  
+  .main-cls{
+    background: #e7d2a9;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #045c54;
+   
+  }
+  .logo a{
+    text-decoration: none;
+    margin: 5px;
+    color: #fff;
+  }
+  
+  .clor_span-1{
+    color: #fb911e;
+  }
+  
+  .clor_span-2{
+    color: #61a90e;
+  }
+  .img-boder-logo{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fb911e;
+    border-radius: 100%;
+  }
+  
+  .logo img{
+    width: 30px;
+    margin-left: 3px;
+    margin: 2px;
+    
+  }
+  
+  
+  header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.s;
+    box-shadow: 15px;
+    background: #045c54;
+   
+  }
+  
+  .logo{
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+  .navbar ul{
+    display: flex;
+    position: relative;
+    
+  }
+  
+  .navbar ul li{
+    list-style: none;
+  }
+  
+  .navbar  a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    font-weight: 700px;
+  }
+  
+  .accesPlafm{
+    padding:  10px 20px;
+    background: #196956;
+    margin-top: -12px;
+  }
+  .imgSlider img{
+    width: 100%;
+    height: 600px;
+   background-size: cover;
+   position: center;
+   
+  }
+  /* info sur le cacao */
+  
+  .info-cacao{
+    width: 1112px;
+    height: 323px;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin: 50px auto;
+    background: #fff;
+    flex-wrap: wrap;
+    border: 2px solid #fb911e;
+  }
+  
+  .info-cacao img{
+    float: right;
+    margin-top: -50px;
+    margin: 0 auto;
+  }
+  
+  
+  .text-info{
+    position: absolute;
+      margin: 30px;
+      width: 425px;
+      height: 216px;
+      left: 268px;
+      top: 684px;
+  }
+  
+  
+  .info-cacao p{
+    margin: 30px;
+    float: left;
+    text-align: center;
+  }
+  
+  .dev-cult{
+    display: flex;
+  }
+  
+  .img-info_1{
+      width: 300px;
+      /* height: 100%; */
+      padding: 10px;
+      clear: both;
+      text-align: center;
+      margin: 0 auto;
+      /* background: #fff; */
+      box-shadow: 2px 2px 2px 2px;
+      margin-top: 10px;
+  }
+  
+  .img-info_1:hover{
+    background: #196956;
+    color: #fff;
+    border: 2px solid #fb911e;
+  }
+  
+  .img-info_1 img{
+    width: 260px;
+    height: 228px;
+    border-radius: 100%;
+    border: 2px solid #fb911e;
+    
+  }
+
+  
+  .clas-infom{
+    width: 100%;
+    height: 308px;
+    background: #FDFAF4;
+  }
+
+  .clas-infom h3{
+    margin: 0 auto;
+  }
+ 
+
+  .infom-paragr{
+    width:1005px;
+    height: 308px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border: 1px solid #e9e0e0;
+    box-shadow: 10px seashell;
+
+  }
+
+
+/* footer */
+
+.footerGig{
+    margin-top: 20px;
+  }
+  
+  /* footer2 */
+  
+  .foot-icons-1{
+    width: 100%;
+    height: 200px;
+    background: #196956;
+    margin: 0 auto;
+    align-items: center;
+    transition: 0.s;
+  }
+  
+  .foot-icons-1 ul li a{
+    color: #fff;
+    margin-top: 30px;
+  }
+  
+  .foot-icons-1 .iconFoot {
+    font-size: 30px;
+  
+  }
+  
+  .foot-icons-1 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+  
+  } 
+  
+  .foot-icons-1 ul li{
+    margin-top: 50px;
+  }
+  .foot-icons-1 .phone_call{
+    text-align: center;
+  }
+  
+  .foot-icons-1 .icon_map{
+    float: right;
+  }
+  
+  .foot-icons-1 li a{
+    text-decoration: none;
+    
+  }
+  /* deuxieme parti de footer */
+  
+  .foot-icons-2 {
+    width: 100%;
+    height: 100px;
+    margin-top: -20px;
+    color: #fff;
+    background: #0c0c0c;
+  }
+  
+  .foot-icons-2 .text-footer{
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .foot-icons-2 .footer-ul ul{
+    display: flex;
+    text-align: center;
+    float: right;
+    
+  }
+  .foot-icons-2 .footer-ul .link-icon{
+    margin: 3px;
+    margin-top: -70px;
+  }
+  
+  .foot-icons-2 .footer-ul .link-icon a{
+    color: #fff;
+    font-size: 32px;
+    margin-left: 20px;
+  }
+  
+  .foot-icons-2 .footer-ul ul li{
+    list-style: none;
+  
+  }

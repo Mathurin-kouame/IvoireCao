@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/accueil.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/apropos.css">
     <title>IvoireCao</title>
 </head>
 <body>
@@ -16,30 +19,40 @@
                 <ul>
                  <li><a href="/index.html">Accueil</a></li>
                  <li><a href="#">A propos</a></li>
-                 <a href="/html/connexion.html" class="accesPlafm">Accès Plateforme</a>
+                 <a href="/html/seConnecter.html" class="accesPlafm">Accès Plateforme</a>
                 </ul>
             </nav>  
     </header>
     <div class="imgSlider">
         <img src="/img/imgeCacao.jpg" alt=""> 
-        
     </div>
-
+    <div class="clas-infom">
+        <h3>Apropos de nous</h3>
+        <div class="infom-paragr">
+            <p class="mot-text">
+                La plateforme IvoireCao est crée en mars 2023 offre une gestion du personnel cacaoculture. Elle est gérée par un administrateur qui affecte des tâches aux travailleurs,
+                 à la suite de ces tâches une mise à jours en cours, terminées et non terminées des tâches est effectuée,
+                à la fin, en fonction des tâches accomplies par jour par le travailleur, une somme lui sera payé.
+            </p>
+        </div>
+    </div>
     <footer class="footerGig">
         <div class="foot-icons-1">  
             <ul>
-                <li><a href="mailto:ivoirecao@gmail.com"><iconify-icon icon="mdi-light:email"></iconify-icon>ivoirecao@gmail.com</a></li>
-                <li><a href="#"><iconify-icon icon="lucide:phone-call"></iconify-icon>+2250555680177 / 0787110625</a></li>
-                <li><a href="#"><iconify-icon icon="majesticons:map-marker-area-line"></iconify-icon>Abibjan,Zone Forestière</a></li>
+                <div class="email-icon"><li><a href="mailto:ivoirecao@gmail.com"><iconify-icon  class="iconFoot"  icon="mdi-light:email"></iconify-icon> ivoirecao@gmail.com</a></li></div>
+                <div class="phone_call"><li><a href="#"><iconify-icon class="iconFoot"  icon="lucide:phone-call"></iconify-icon> +2250555680177 / 0787110625</a></li></div>
+                <div class="icon_map"> <li><a href="#"><iconify-icon  class="iconFoot" icon="majesticons:map-marker-area-line"></iconify-icon> Abibjan,Zone Forestière</a></li></div> 
             </ul>
         </div>
         <div class="foot-icons-2">
-            <p>©2023 IvoireCao,Gestion du Personnel cacaoculture en Côte d'Ivoire</p>
-            <ul>
-                <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:facebook"></iconify-icon></span></a></li>
-                <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:twitter"></iconify-icon></span></a></li>
-                <li><a href="#"><span class="footer-icon"><iconify-icon icon="et:linkedin"></iconify-icon></span></a></li>
-            </ul>
+            <div class="text-footer"><p>© 2023 IvoireCao,Gestion du Personnel cacaoculture en Côte d'Ivoire</p></div>
+            <div class="footer-ul"> 
+              <ul>
+               <div class="link-icon"><li><a href="#"><iconify-icon icon="et:facebook"></iconify-icon></span></a></li></div>
+               <div class="link-icon" ><li><a href="#"><iconify-icon icon="et:twitter"></iconify-icon></span></a></li></div> 
+               <div class="link-icon"><li><a href="#"><iconify-icon icon="et:linkedin"></iconify-icon></span></a></li></div> 
+              </ul>
+           </div> 
         </div>
        </footer>
 </body>

@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+    background: #d2dddc;
+}
+
+.formulaire {
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: -10px;
+    background: #159a8a;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.form-connect {
+    width: 100px;
+    height: 100px;
+    margin: 18rem;
+    padding-top: 12%;
+   
+    justify-content: center;
+}
+
+.form-connect input{
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 4px;
+    
+}
+
+.btn-form input{
+    width: 300px;
+    height: 50px;
+    margin: 60%;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.btn-back i {
+    font-size: 40px;
+    margin-right: 50px;
+}
