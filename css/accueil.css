@@ -14,7 +14,7 @@ body{
 }
 
 .main-cls{
-  background: #e7d2a9;
+  background:#eadccc;
 }
 .logo{
   display: flex;
@@ -133,7 +133,6 @@ header{
     margin: 30px;
     width: 425px;
     height: 216px;
-    left: 268px;
     top: 684px;
 }
 
