@@ -91,11 +91,12 @@ header{
 } */
 
 .elms-admin{
-  display: flex;
+    display: flex;
     float: right;
     margin-top: -40px;
     margin-right: 50px;
 }
+
 
 .down-icon i {
   margin-top: 10px;
@@ -107,8 +108,12 @@ header{
     list-style: none;
 }
 
-.elms-admin a{
+.elms-admin .user-icon .login-super a i{
     text-decoration: none;
+    color: #fff;
+}
+.elemt-SuperAdmin{
+  color: #fff;
 }
 
 /* partie info-profil */

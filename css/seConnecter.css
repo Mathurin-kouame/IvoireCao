@@ -3,7 +3,13 @@ body{
     margin: 0;
     font-family: 'popins', sans-serif;
     box-sizing: border-box;
-    background: #d2dddc;
+    
+}
+
+.body-cont{
+    width: 100%;
+    height:500px;
+    background: #196956;
 }
 
 .page-cont{
@@ -13,20 +19,22 @@ body{
 }
 
 .formulaire {
-    width: 1100px;
-    height: 600px;
+    width: 876px;
+    height: 538px;
     margin: 0 auto;
-    margin-top: -10px;
-    background: #159a8a;
+    margin-top: 130px;
+    background: #fff;
     justify-content: center;
+    border: 1px solid #196956;;
     border-radius: 10px;
+    box-shadow: 10px;
 }
 
 .form-connect {
     width: 100px;
     height: 100px;
     margin: 18rem;
-    padding-top: 12%;
+    /* padding-top: 12%; */
    
     justify-content: center;
 }
