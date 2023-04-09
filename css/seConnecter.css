@@ -19,10 +19,10 @@ body{
 }
 
 .formulaire {
-    width: 876px;
+    width: 600px;
     height: 538px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 125px;
     background: #fff;
     justify-content: center;
     border: 1px solid #196956;;
@@ -33,14 +33,14 @@ body{
 .form-connect {
     width: 100px;
     height: 100px;
-    margin: 18rem;
-    /* padding-top: 12%; */
+    margin: 8rem;
+    /* padding-top: 12%;  */
    
     justify-content: center;
 }
 
 .form-connect input{
-    width: 500px;
+    width: 300px;
     height: 40px;
     margin: 10px;
     border-radius: 4px;
@@ -50,12 +50,14 @@ body{
 .btn-form input{
     width: 300px;
     height: 50px;
-    margin: 60%;
+    /* margin: 60%; */
     margin-right: 10px;
     border-radius: 100px;
 }
 
-.btn-back i {
-    font-size: 40px;
-    margin-right: 50px;
+.btn-back a{
+    font-size: 30px;
+    text-decoration: none;
+    float: right;
+    
 }
